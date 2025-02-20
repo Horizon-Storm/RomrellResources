@@ -10,3 +10,7 @@ Maya/scripts/.idea/.idea.scripts.dir/.idea/
 *.painter_lock
 
 Maya/scenes/Bottle1.usd
+
+Maya/scenes/Pig/.mayaSwatches/
+
+*.swatches
