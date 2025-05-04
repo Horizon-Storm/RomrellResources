@@ -1,6 +1,6 @@
 //Maya ASCII 2025 scene
 //Name: Pig3.ma
-//Last modified: Thu, Feb 13, 2025 07:23:11 PM
+//Last modified: Fri, Feb 21, 2025 09:24:23 AM
 //Codeset: UTF-8
 requires maya "2025";
 requires -nodeType "materialxStack" -nodeType "MaterialXSurfaceShader" -dataType "MxDocumentStackData"
@@ -15,12 +15,12 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202404240506-c155a58772";
 fileInfo "osv" "Mac OS X 15.3";
-fileInfo "UUID" "D652FD28-A04A-0B72-5553-66A26EA8101C";
+fileInfo "UUID" "9A094D2A-764B-3495-E702-01A36694A37E";
 createNode transform -s -n "persp";
 	rename -uid "08E54690-8B4B-FC96-6F9C-0BBE030F28ED";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 27.501703968657029 33.868091066159856 27.112664115443753 ;
-	setAttr ".r" -type "double3" -22.538352777766878 3644.5999999996861 2.2334538879259949e-15 ;
+	setAttr ".t" -type "double3" 25.583240206104108 29.684910086297691 30.81692853186939 ;
+	setAttr ".r" -type "double3" -16.538352777765773 3638.9999999996621 0 ;
 	setAttr ".rp" -type "double3" 1.7763568394002505e-15 0 0 ;
 	setAttr ".rpt" -type "double3" -3.5476892246921896e-15 -2.9107380765579301e-15 2.7545608396619208e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -58227,7 +58227,7 @@ createNode groupId -n "piggy_three:groupId3";
 	rename -uid "31300D7F-2C4D-F6A7-703C-9D9E5561D6A2";
 	setAttr ".ihi" 0;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "B711CBC8-7F48-D92D-D976-56853BB8194C";
+	rename -uid "FC346E21-9244-A8E2-16FD-3AA1A322D9EB";
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
