@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: GenericMeshCartoon.ma
-//Last modified: Wed, Oct 22, 2025 08:19:58 PM
+//Last modified: Wed, Oct 22, 2025 09:48:16 PM
 //Codeset: UTF-8
 requires maya "2026";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.5.2";
@@ -12,17 +12,17 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202506101850-99cfad7309";
 fileInfo "osv" "Mac OS X 15.6.1";
-fileInfo "UUID" "8BD3E23A-9447-2EE6-FF69-99862E613E12";
+fileInfo "UUID" "E52382FF-7942-6211-5FD3-7C9C6EEEF5F7";
 createNode transform -s -n "persp";
 	rename -uid "50A247D5-C042-AED7-01B4-DCB89E9990C4";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 14.631128554634289 14.789249414184878 17.946715291802818 ;
-	setAttr ".r" -type "double3" -23.138352624459511 2919.7999999996337 0 ;
+	setAttr ".t" -type "double3" 10.315016282469887 10.210287073674332 19.30496725886124 ;
+	setAttr ".r" -type "double3" -13.538352623966512 2908.5999999996761 -4.5282123493102546e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "3E7BF761-AD4B-B431-9D2F-639FCB2FAE79";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 24.856728064113447;
+	setAttr ".coi" 22.164209016598804;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
